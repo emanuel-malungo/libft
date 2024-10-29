@@ -6,7 +6,7 @@
 /*   By: emalungo <emalungo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 12:19:16 by emalungo          #+#    #+#             */
-/*   Updated: 2024/10/29 08:37:16 by emalungo         ###   ########.fr       */
+/*   Updated: 2024/10/29 10:59:55 by emalungo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int		ft_isprint(int c);
 int		ft_isdigit(int c);
 int		ft_toupper(int c);
 size_t	ft_strlen(const char *s);
+int		ft_atoi(const char *nptr);
 void	ft_bzero(void *s, size_t n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
